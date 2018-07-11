@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0a1fe5e04ac48c23a771d45b212e3583ce57e166b4c7b1fafc428fc8d4cd2b00"
+            "sha256": "efc3c4a7a94172777ee1ffea9139c481137380fcf985eceb52389aa202311436"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,6 +31,14 @@
             ],
             "index": "pypi",
             "version": "==19.9.0"
+        },
+        "pigpio": {
+            "hashes": [
+                "sha256:38bdc1b4d58898e7b4a69de3b0d90e8e8ccd851ac7d03e30791769475ffd941f",
+                "sha256:be1480aecf7c8aba9c92d2846ae153ad4c7e89ae188b28e4bcc579c3bc30e36b"
+            ],
+            "index": "pypi",
+            "version": "==1.40.post1"
         },
         "pycnic": {
             "hashes": [

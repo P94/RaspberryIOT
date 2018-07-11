@@ -7,6 +7,7 @@ verify_ssl = true
 pycnic = "*"
 gunicorn = "*"
 gpiozero = "*"
+pigpio = "*"
 
 [dev-packages]
 

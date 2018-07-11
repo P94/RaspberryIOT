@@ -7,11 +7,10 @@ class piLight(Handler):
     def get(self):
         led = LED(25)
 
-        while True:
-            led.on()
-            sleep(1)
-            led.off()
-            sleep(1)
+        led.on()
+        sleep(1)
+        led.off()
+        sleep(1)
         
         return { 
             "response": "OK"
